@@ -11,7 +11,7 @@ st.sidebar.write("オリジナルの画像認識モデルを使って何の画�
 
 st.sidebar.write("")
 
-img_source = st.sidebar.radio("画像のソースを選択してください。",
+img_source = st.sidebar.radio("画像のソースを選択してください!",
                               ("画像をアップロード", "カメラで撮影"))
 if img_source == "画像をアップロード":
     img_file = st.sidebar.file_uploader("画像を選択してください。", type=["png", "jpg", "jpeg"])
